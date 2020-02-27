@@ -1,4 +1,4 @@
 all:
-	gcc linked.c -o linked
-	gcc neural.c -o neural
-	./linked
+	gcc src/linked.c -o bin/linked
+	gcc src/neural.c -o bin/neural
+	./bin/linked
