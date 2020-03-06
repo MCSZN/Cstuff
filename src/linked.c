@@ -62,6 +62,7 @@ void printf_list(node* head) {
 }
 
 float sum_linked(node* head) {
+	// recursive sum of linked nodes
 	node* temp = head;
 	if (temp->next == NULL) {
 		return temp->number;
